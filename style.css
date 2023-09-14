@@ -3,97 +3,43 @@ body {
   height: 100%;
   margin: 0;
 }
-/* Center the image within the <figure> element */
-figure {
+h1 {
   text-align: center;
 }
 
-/* Shrink the font size for the image caption */
-figcaption {
+
+figure, nav {
+  text-align: center;
+}
+
+figcaption, #featured-property p {
   font-size: 14px;
 }
 
-/* Center-align the text within the <p> elements in #featured-property */
 #featured-property p {
   width: 800px;
   margin: 10px auto;
   text-align: center;
 }
 
-/* Make the <div> elements in #details horizontal */
 #details div {
   float: left;
   width: 25%;
   text-align: center;
 }
 
-/* Add background color and padding to all <div> elements in #details */
-#details div,
-#details h3 {
-  background-color: grey;
-  padding: 10px;
-}
-
-/* Clear the float to prevent layout issues */
-#details::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Jazz up our navigation links */
-nav {
-  text-align: center;
-}
-
-/* Add padding to the left and right of each navigation link */
-nav a {
-  padding: 10px;
-  background-color: grey;
-}
-
-/* Center the image within the <figure> element */
-figure {
-  text-align: center;
-}
-
-/* Shrink the font size for the image caption */
-figcaption {
-  font-size: 14px;
-}
-
-/* Center-align the text within the <p> elements in #featured-property */
-#featured-property p {
-  width: 800px;
-  margin: 10px auto;
-  text-align: center;
-}
-
-/* Make the <div> elements in #details horizontal */
-#details div {
-  float: left;
-  width: 25%;
-  text-align: center;
-  
-}
-
-/* Add background color and padding to all <div> elements in #details */
-#details div,
-#details h3 {
+#details div, #details h3 {
   background-color: red;
   padding: 10px;
-  
 }
 
-/* Clear the float to prevent layout issues */
 #details::after {
   content: "";
   display: table;
   clear: both;
 }
-#details{
+
+#details {
   display: flex;
 }
-h1{
-  text-align: center;
-}
+
